@@ -1,0 +1,23 @@
+{
+  "name": "teambuilder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoffh-5334/teamBuilder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoffh-5334/teamBuilder/issues"
+  },
+  "homepage": "https://github.com/hoffh-5334/teamBuilder#readme",
+  "dependencies": {
+    "jest": "^29.2.0"
+  }
+}
