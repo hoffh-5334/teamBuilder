@@ -115,8 +115,8 @@ for(let i = 0 ; i < Employees.length; i++){
     special = Employees[i].getGithub()
   }else{special = Employees[i].getSchool()}
   employeeHTML+=`
-  <div class ="d-flex justify-content-center">
-    <div class ="card" style ="width: 15rem;">
+  <div class ="container">
+    <div class ="card col-3" style ="width: 15rem; margin: 50px;">
       <div class="card-header" style = "background-color: blue; color: white;">
 
         <h3> ${Employees[i].getName()}</h3>
@@ -145,6 +145,7 @@ return`
   <link
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <link rel="stylesheet" href="../style.css">
   />
 </head>
 <header>

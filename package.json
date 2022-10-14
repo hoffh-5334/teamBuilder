@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hoffh-5334/teamBuilder#readme",
   "dependencies": {
+    "inquirer": "^8.0.0",
     "jest": "^29.2.0"
   }
 }
